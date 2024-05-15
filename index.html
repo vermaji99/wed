@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="" /> -->
+    <link rel="shortcut icon" href="favicon.ico" type="favicon.png">
+    <title>EVENT-HUB</title>
+
+    <!--css file-->
+    <link rel="stylesheet" href="style.css" />
+
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="no.jsx">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="container container-header">
+            <div class="logo-container border-white">
+                <div class="logo"></div>
+                <span class="dotin">EventHUB</span>
+            </div>
+
+            <div class="address-container border-white">
+                <p class="border-white">Hello</p>
+                <div class="icon-address">
+                    <i class="fa-solid fa-location-dot icon-location"></i>
+                    <p>Select your address</p>
+                </div>
+            </div>
+
+            <div class="search-container">
+                <select class="search-select">
+                    <option>All</option>
+                </select>
+                <input type="text" class="search-input" />
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+
+            </div>
+
+            <div class="language-container border-white">
+                <p>English</p>
+                <div class="lauguge-image">
+                    <img
+                        src="https://media.istockphoto.com/vectors/vector-flag-of-the-republic-of-india-proportion-23-the-national-flag-vector-id1051236720?k=20&m=1051236720&s=612x612&w=0&h=ATObRTHmTosADa9zaB2dQPn_VAQmG1XYH2x92kzc304=" />
+                </div>
+            </div>
+
+            <div class="login-container border-white">
+                sign in
+                <p class="account">Account & Lists</p>
+            </div>
+
+            <div class="return-order-container">
+                <p class="border-white">Past bookings
+                <!-- <div ></div> -->
+                </p>
+            </div>
+
+            <div class="cart-container border-white">
+                <!-- <i class="fa-solid fa-cart-shopping"></i> -->
+                BOOK NOW
+            </div>
+        </div>
+    </header>
+
+    <!--navigation-->
+    <nav class="nav">
+        <div class="container container-nav">
+            <ul>
+                <li class="border-white1" id="open-nav-sidebar">
+                    <span class="open-nav-slider">
+                        <i class="fa-solid fa-bars"></i>
+                        All
+                    </span>
+                </li>
+                <li class="border-white"><a href="#">wedding & reception</a></li>
+                <li class="border-white"><a href="#">Birthday party</a></li>
+                <li class="border-white"><a href="#">Surprise party</a></li>
+                <li class="border-white"><a href="#"></a>Caters</li>
+                <li class="border-white"><a href="#">Dinner party.</a></li>
+                <li class="border-white"><a href="#">Halls&Lawns</a></li>
+                <li class="border-white"><a href="#">Banquets</a></li>
+                <li class="border-white"><a href="#">Bookings</a></li>
+                <li class="border-white prime-image-hover">
+                    <a href="#">Types</a>
+                    <div class="prime-image">
+                        <img
+                            src="https://i.pinimg.com/originals/e2/3e/6e/e23e6e045174ec9a10290728337b545a.png" />
+                    </div>
+
+                </li>
+            </ul>
+            <div class="nav-right-image-amazon-prime">
+            </div>
+        </div>
+    </nav>
+
+    <!--sidebar navigation-->
+    <div class="sidebar-container-navigation" id="sidebar-container-navigation-id">
+        <div class="sidebar-left-part">
+            <div class="sidebar-top">
+                <i class="fa-solid fa-circle-user"></i>
+                <h2>Hello, <span>sign in</span></h2>
+            </div>
+            <div class="sidebar-wrap">
+                <div class="sidebar-item">
+                    <h2>Trending</h2>
+                    <p>Best Sellers</p>
+                    <p>New Releases</p>
+                    <p>Movers and Shakers</p>
+                </div>
+                <div class="sidebar-item">
+                    <h2>Digital Content And Devices</h2>
+                    <p>Echo & Alexa</p>
+                    <p>Fire TV</p>
+                    <p>Kindle E-Readers & eBooks</p>
+                    <p>Audible Audiobooks</p>
+                    <p>Amazon Prime Video</p>
+                    <p>Amazon Prime Music</p>
+                </div>
+                <div class="sidebar-item">
+                    <h2>Shop By Category</h2>
+                    <p>Mobiles, Computes</p>
+                    <p>TV, Appliances, Electronic</p>
+                    <p>Men's Fashion</p>
+                    <p>Women's Fashion</p>
+                    <p>See All</p>
+                </div>
+                <div class="sidebar-item">
+                    <h2>Programs & Features</h2>
+                    <p>Gift Cards & Mobile Recharges</p>
+                    <p>Flight Tickets</p>
+                    <p>#Foundlt-OnAmazon</p>
+                    <p>Clearance store</p>
+                </div>
+                <div class="sidebar-item">
+                    <h2>Help & Settings</h2>
+                    <p>Your Account</p>
+                    <p>Customer Service</p>
+                    <p>Sign in</p>
+                </div>
+            </div>
+        </div>
+        <button id="sidebar-navigation-close">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+    </div>
+
+
+
+
+    <!--image slider -->
+    <section>
+        <div class="image-container">
+            <div class="image-list">
+                <div class="image-item">
+             <img src="https://e0.pxfuel.com/wallpapers/219/344/desktop-wallpaper-white-love-happiness-blue-lamp-love-white-hall-blue-wedding-flowers-beautiful-decor-wedding-design-shine-for-section-%D1%86%D0%B2%D0%B5%D1%82%D1%8B.jpg" /> 
+                </div>
+                <div class="image-item">
+                    <img src="032359e8e69fd4044cea673d8ee99af8.jpg">
+                    </div>
+                <div class="image-item">
+                    <img src="https://m.media-amazon.com/images/I/71qlKqpJnlL._SX3000_.jpg" />
+                </div>
+                <div class="image-item">
+                    <img src="https://m.media-amazon.com/images/I/71cQMXCLSvL._SX3000_.jpg" />
+                </div>
+                <div class="image-item">
+                    <img src="https://m.media-amazon.com/images/I/61aURrton0L._SX3000_.jpg" />
+                </div>
+                <div class="image-item">
+                    <img src="https://m.media-amazon.com/images/I/61O72XhcEkL._SX3000_.jpg" />
+                </div>
+                <div class="image-item">
+                    <img src="https://m.media-amazon.com/images/I/61VuJdpjvaL._SX3000_.jpg" />
+                </div>
+                <div class="image-item">
+                    <img src="https://m.media-amazon.com/images/I/61UrRx+3LLL._SX3000_.jpg" />
+                </div>
+            </div>
+
+            <div class="image-btn-container">
+
+                <button class="slider-btn" id="slide-btn-left"><i class="fa-solid fa-chevron-left"></i></button>
+                <button class="slider-btn" id="slide-btn-right"><i class="fa-solid fa-chevron-right"></i></i></button>
+            </div>
+        </div>
+    </section>
+
+
+    <!--product container card-->
+    <main class="main">
+        <div class="card-product-container container">
+            <div class="card-product">
+                <h2>Birthday Party</h2>
+                <div class="card-product-nested-card">
+                    <div class="card-nested">
+                        <img
+                            src="032359e8e69fd4044cea673d8ee99af8.jpg" />
+                        <p>Simple</p>
+                    </div>
+                    <div class="card-nested">
+                        <img
+                            src="https://m.media-amazon.com/images/I/817OqujbTJL._AC_SX425_.jpg" />
+                        <p>Indoor</p>
+                    </div>
+                    <div class="card-nested">
+                        <img
+                            src="https://images.meesho.com/images/products/76110830/kugap_512.jpg" />
+                        <p>Halls</p>
+                    </div>
+                    <div class="card-nested">
+                        <img
+                            src="https://thumbs.dreamstime.com/z/big-group-children-outdoor-birthday-party-standing-next-to-table-putting-their-hands-up-79109160.jpg" />
+                        <p>Outdoors</p>
+                    </div>
+                </div>
+                <button class="card-product-btn">see more</button>
+            </div>
+            <div class="card-product">
+                <h2>Wedding & Reception</h2>
+                <div class="card-product-nested-card">
+                    <div class="card-nested">
+                        <img
+                            src="istockphoto-1184628725-612x612.jpg" >
+                             <p>Traditional</p>
+                    </div>
+                    <div class="card-nested">
+                        <img
+                            src="https://c4.wallpaperflare.com/wallpaper/474/161/95/sand-sea-flowers-nature-wallpaper-preview.jpg" />
+                        <p>Outdoor</p>
+                    </div>
+                    <div class="card-nested">
+                        <img
+                            src="https://media.istockphoto.com/id/471906412/photo/beautiful-table-setting-for-an-wedding-reception-or-an-event.jpg?b=1&s=170667a&w=0&k=20&c=o-cOg8tKKH10TxUg9EAlHbSfjRPoMdgVFzpRpQqTaVI=" />
+                        <p>Indoor</p>
+                    </div>
+                    <div class="card-nested">
+                        <img
+                            src="https://www.kadvacorp.com/wp-content/uploads/2017/02/cheap-wedding-decorations.jpg" />
+                        <p>Explore more</p>
+                    </div>
+                </div>
+                <button class="card-product-btn">More</button>
+            </div>
+            <div class="card-product">
+                <h2>Orchestra </h2>
+                <div class="card-product-nested-card">
+                    <div class="card-nested">
+                        <img
+                            src="https://media.weddingz.in/images/dbda21caa34f9bfbf9f5e3ef6856c180/the-wedding-symphony-orchestra-concerts-in-weddings-hyderabad-1.jpg" />
+                        <p>Traditional</p>
+                    </div>
+                    <div class="card-nested">
+                        <img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz0bq_ntRif_1uupgvXpFYLosugYHsTidPlZ--4QuzftpXlcqeWiyTrHAmS8dzKBomCO4&usqp=CAU"/>
+                        <p>Formal</p>
+                    </div>
+                    <div class="card-nested">
+                        <img
+                            src="https://bollyjammers.com/wp-content/uploads/2022/08/DJ-based-Wedding-Band-in-Mumbai-scaled.webp" />
+                        <p>Trending</p>
+                    </div>
+                    <div class="card-nested">
+                        <img
+                            src="https://media.weddingz.in/images/458595d4e6bf4392ca378b2b2d4b5d4f/the-wedding-symphony-orchestra-concert-photos-in-wedding-receptions-hyderabad-18.jpg" />
+                        <p>Highly rated</p>
+                    </div>
+                </div>
+                <button class="card-product-btn">see more</button>
+            </div>
+            <div class="card-product">
+                <h2>Catering & Staff</h2>
+                <div class="card-product-nested-card">
+                    <div class="card-nested">
+                        <img
+                            src="https://c4.wallpaperflare.com/wallpaper/916/92/995/catering-indywidualny-wallpaper-preview.jpg" />
+                        <p>Party</p>
+                    </div>
+                    <div class="card-nested">
+                        <img
+                            src="https://bloximages.newyork1.vip.townnews.com/journalnow.com/content/tncms/assets/v3/editorial/6/ed/6edb6bb6-9753-11ed-8004-8353858ea207/63c828bb9c58c.image.jpg?crop=1762%2C925%2C0%2C125&resize=1200%2C630&order=crop%2Cresize" />
+                        <p>Dinner table</p>
+                    </div>
+                    <div class="card-nested">
+                        <img
+                            src="https://www.shutterstock.com/shutterstock/videos/1016867023/thumb/4.jpg?ip=x480" />
+                        <p>Staff</p>
+                    </div>
+                    <div class="card-nested">
+                        <img
+                            src="https://5.imimg.com/data5/JF/OB/MY-19281740/img-20170405-wa0073-1000x1000.jpg" />
+                        <p>Buffer</p>
+                    </div>
+                </div>
+                <button class="card-product-btn">see more</button>
+            </div>
+        </div>
+
+        <div class="card-product-container container productBackgraound">
+            <div class="card-product">
+                <h2>Recenty viewd</h2>
+                <div class="card-product-nested-card">
+                    <div class="card-nested">
+                        <img
+                            src="https://e0.pxfuel.com/wallpapers/78/470/desktop-wallpaper-wedding-reception-background-wedding-wedding-party.jpg" />
+                        <p>Halls</p>
+                    </div>
+                    <div class="card-nested">
+                        <img
+                            src="https://mottvisualsweddingsblog.com/wp-content/uploads/2022/07/Wedding-Videography-548x450.jpeg" />
+                        <p>Camera Man</p>
+                    </div>
+                    <div class="card-nested">
+                        <img
+                            src="https://c4.wallpaperflare.com/wallpaper/302/897/89/dj-edm-marshmello-dj-hd-wallpaper-preview.jpg" />
+                        <p>Dj</p>
+                    </div>
+                    <div class="card-nested">
+                        <img
+                            src="https://static.vecteezy.com/system/resources/previews/000/249/592/original/wedding-invitation-card-template-with-decorative-floral-backgrou-vector.jpg" />
+                        <p>Invitation Cards</p>
+                    </div>
+                </div>
+                <button class="card-product-btn">see more</button>
+            </div>
+            <div class="card-product">
+                <h2>Office party</h2>
+                <div class="card-product-nested-card">
+                    <div class="card-nested">
+                        <img
+                            src="https://media.istockphoto.com/id/918958976/photo/business-event.jpg?s=612x612&w=0&k=20&c=FMzNmDwQh1Rmf4ZWfsQzmbccarRWotuMd3mrz3hJ6QE=" />
+                        <p>Formal</p>
+                    </div>
+                    <div class="card-nested">
+                        <img
+                            src="https://static.vecteezy.com/system/resources/previews/003/516/130/original/grand-opening-luxury-invitation-banner-background-illustration-free-vector.jpg" />
+                        <p>Opening Party</p>
+                    </div>
+                    <div class="card-nested">
+                        <img
+                            src="https://media.istockphoto.com/id/882906386/photo/lets-kick-this-party-into-high-gear.jpg?s=612x612&w=0&k=20&c=yjXQzoaqh7ZbuPhGt0-YLaHg2_JA-OGBfB-q6ThDwHw=" />
+                        <p>Pramotion</p>
+                    </div>
+                    <div class="card-nested">
+                        <img
+                            src="https://media.istockphoto.com/id/1182525596/photo/business-colleagues-enjoying-sparkling-wine-and-conversation.jpg?s=612x612&w=0&k=20&c=3ELOi5mYkal6rI7pdEZitn_EzMnPBG65BAFnhbW0sAw=" />
+                        <p>Special Day</p>
+                    </div>
+                </div>
+                <button class="card-product-btn">see more</button>
+            </div>
+            <div class="card-product">
+                <h2>Food and Drinks</h2>
+                <div class="card-product-nested-card">
+                    <div class="card-nested">
+                        <img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6qvgs7wSHZnf8TNR95J7qb7pE0BG7kHUmHcUM9QepBL97LhNLScFRyoSC0NAMyMmlSPM&usqp=CAU" />
+                        <p>Starters</p>
+                    </div>
+                    <div class="card-nested">
+                        <img
+                            src="https://media.istockphoto.com/id/616091026/photo/people-at-a-banquet.jpg?s=612x612&w=0&k=20&c=gRu5uYEOUCOjS2G9OrN4O7iT8TMtf7-Srk6VJi1Ccsc=" />
+                        <p>Main Course</p>
+                    </div>
+                    <div class="card-nested">
+                        <img
+                            src="https://c1.wallpaperflare.com/preview/387/711/609/eat-food-vitamins-vegetables.jpg" />
+                        <p>Chines</p>
+                    </div>
+                    <div class="card-nested">
+                        <img
+                            src="https://media.istockphoto.com/id/478774622/photo/dessert-of-fresh-fruit-on-skewers-close-up-horizontal.jpg?s=612x612&w=0&k=20&c=P3E8Okn8WUwVvYjI-rlou8HboQ0MqPZ9vOA4lCYxr4A=" />
+                        <p>Fruits</p>
+                    </div>
+                </div>
+                <button class="card-product-btn">see more</button>
+            </div>
+            <div class="card-product">
+                <h2>Lights and Decorators</h2>
+                <div class="card-product-nested-card">
+                    <div class="card-nested">
+                        <img
+                            src="https://c0.wallpaperflare.com/preview/413/654/429/newyork-new-york-blue-voilet.jpg" />
+                        <p>Dark theam</p>
+                    </div>
+                    <div class="card-nested">
+                        <img
+                            src="https://rukminim1.flixcart.com/image/416/416/xif0q/poster/j/s/b/medium-vposter1123445-winter-christmas-city-christmas-decoration-original-imagka7nsxz3u7jq.jpeg?q=70" />
+                        <p>Bright lights</p>
+                    </div>
+                    <div class="card-nested">
+                        <img
+                            src="https://lh3.googleusercontent.com/kpoueaoOjrdEJs6krwFABrwPcBqJHK8d_g5Ne3P3xOXo65b5mvxK6RSlhYdQmscS5q8MoDIOsN8OkTA154L_QKzk=h200-l95-e31" />
+                        <p>Flowers decoration</p>
+                    </div>
+                    <div class="card-nested">
+                        <img
+                            src="https://i.pinimg.com/originals/12/9d/de/129dde3e616d04d38bcf4aecc7282860.jpg" />
+                        <p>Traditional</p>
+                    </div>
+                </div>
+                <button class="card-product-btn">see more</button>
+            </div>
+        </div>
+        <div class="card-product-container container">
+            <div class="card-product">
+                <h2>Birthday Party</h2>
+                <div class="card-product-nested-card">
+                    <div class="card-nested">
+                        <img
+                            src="032359e8e69fd4044cea673d8ee99af8.jpg" />
+                        <p>Simple</p>
+                    </div>
+                    <div class="card-nested">
+                        <img
+                            src="https://m.media-amazon.com/images/I/817OqujbTJL._AC_SX425_.jpg" />
+                        <p>Indoor</p>
+                    </div>
+                    <div class="card-nested">
+                        <img
+                            src="https://images.meesho.com/images/products/76110830/kugap_512.jpg" />
+                        <p>Halls</p>
+                    </div>
+                    <div class="card-nested">
+                        <img
+                            src="https://thumbs.dreamstime.com/z/big-group-children-outdoor-birthday-party-standing-next-to-table-putting-their-hands-up-79109160.jpg" />
+                        <p>Outdoors</p>
+                    </div>
+                </div>
+                <button class="card-product-btn">see more</button>
+            </div>
+            <div class="card-product">
+                <h2>Wedding & Reception</h2>
+                <div class="card-product-nested-card">
+                    <div class="card-nested">
+                        <img
+                            src="istockphoto-1184628725-612x612.jpg" >
+                             <p>Traditional</p>
+                    </div>
+                    <div class="card-nested">
+                        <img
+                            src="https://c4.wallpaperflare.com/wallpaper/474/161/95/sand-sea-flowers-nature-wallpaper-preview.jpg" />
+                        <p>Outdoor</p>
+                    </div>
+                    <div class="card-nested">
+                        <img
+                            src="https://media.istockphoto.com/id/471906412/photo/beautiful-table-setting-for-an-wedding-reception-or-an-event.jpg?b=1&s=170667a&w=0&k=20&c=o-cOg8tKKH10TxUg9EAlHbSfjRPoMdgVFzpRpQqTaVI=" />
+                        <p>Indoor</p>
+                    </div>
+                    <div class="card-nested">
+                        <img
+                            src="https://www.kadvacorp.com/wp-content/uploads/2017/02/cheap-wedding-decorations.jpg" />
+                        <p>Explore more</p>
+                    </div>
+                </div>
+                <button class="card-product-btn">More</button>
+            </div>
+            <div class="card-product">
+                <h2>Orchestra </h2>
+                <div class="card-product-nested-card">
+                    <div class="card-nested">
+                        <img
+                            src="https://media.weddingz.in/images/dbda21caa34f9bfbf9f5e3ef6856c180/the-wedding-symphony-orchestra-concerts-in-weddings-hyderabad-1.jpg" />
+                        <p>Traditional</p>
+                    </div>
+                    <div class="card-nested">
+                        <img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz0bq_ntRif_1uupgvXpFYLosugYHsTidPlZ--4QuzftpXlcqeWiyTrHAmS8dzKBomCO4&usqp=CAU"/>
+                        <p>Formal</p>
+                    </div>
+                    <div class="card-nested">
+                        <img
+                            src="https://bollyjammers.com/wp-content/uploads/2022/08/DJ-based-Wedding-Band-in-Mumbai-scaled.webp" />
+                        <p>Trending</p>
+                    </div>
+                    <div class="card-nested">
+                        <img
+                            src="https://media.weddingz.in/images/458595d4e6bf4392ca378b2b2d4b5d4f/the-wedding-symphony-orchestra-concert-photos-in-wedding-receptions-hyderabad-18.jpg" />
+                        <p>Highly rated</p>
+                    </div>
+                </div>
+                <button class="card-product-btn">see more</button>
+            </div>
+            <div class="card-product">
+                <h2>Catering & Staff</h2>
+                <div class="card-product-nested-card">
+                    <div class="card-nested">
+                        <img
+                            src="https://c4.wallpaperflare.com/wallpaper/916/92/995/catering-indywidualny-wallpaper-preview.jpg" />
+                        <p>Party</p>
+                    </div>
+                    <div class="card-nested">
+                        <img
+                            src="https://bloximages.newyork1.vip.townnews.com/journalnow.com/content/tncms/assets/v3/editorial/6/ed/6edb6bb6-9753-11ed-8004-8353858ea207/63c828bb9c58c.image.jpg?crop=1762%2C925%2C0%2C125&resize=1200%2C630&order=crop%2Cresize" />
+                        <p>Dinner table</p>
+                    </div>
+                    <div class="card-nested">
+                        <img
+                            src="https://www.shutterstock.com/shutterstock/videos/1016867023/thumb/4.jpg?ip=x480" />
+                        <p>Staff</p>
+                    </div>
+                    <div class="card-nested">
+                        <img
+                            src="https://5.imimg.com/data5/JF/OB/MY-19281740/img-20170405-wa0073-1000x1000.jpg" />
+                        <p>Buffer</p>
+                    </div>
+                </div>
+                <button class="card-product-btn">see more</button>
+            </div>
+        </div>
+
+        <div class="card-product-container container productBackgraound">
+            <div class="card-product">
+                <h2>Recenty viewd</h2>
+                <div class="card-product-nested-card">
+                    <div class="card-nested">
+                        <img
+                            src="https://e0.pxfuel.com/wallpapers/78/470/desktop-wallpaper-wedding-reception-background-wedding-wedding-party.jpg" />
+                        <p>Halls</p>
+                    </div>
+                    <div class="card-nested">
+                        <img
+                            src="https://mottvisualsweddingsblog.com/wp-content/uploads/2022/07/Wedding-Videography-548x450.jpeg" />
+                        <p>Camera Man</p>
+                    </div>
+                    <div class="card-nested">
+                        <img
+                            src="https://c4.wallpaperflare.com/wallpaper/302/897/89/dj-edm-marshmello-dj-hd-wallpaper-preview.jpg" />
+                        <p>Dj</p>
+                    </div>
+                    <div class="card-nested">
+                        <img
+                            src="https://static.vecteezy.com/system/resources/previews/000/249/592/original/wedding-invitation-card-template-with-decorative-floral-backgrou-vector.jpg" />
+                        <p>Invitation Cards</p>
+                    </div>
+                </div>
+                <button class="card-product-btn">see more</button>
+            </div>
+            <div class="card-product">
+                <h2>Office party</h2>
+                <div class="card-product-nested-card">
+                    <div class="card-nested">
+                        <img
+                            src="https://media.istockphoto.com/id/918958976/photo/business-event.jpg?s=612x612&w=0&k=20&c=FMzNmDwQh1Rmf4ZWfsQzmbccarRWotuMd3mrz3hJ6QE=" />
+                        <p>Formal</p>
+                    </div>
+                    <div class="card-nested">
+                        <img
+                            src="https://static.vecteezy.com/system/resources/previews/003/516/130/original/grand-opening-luxury-invitation-banner-background-illustration-free-vector.jpg" />
+                        <p>Opening Party</p>
+                    </div>
+                    <div class="card-nested">
+                        <img
+                            src="https://media.istockphoto.com/id/882906386/photo/lets-kick-this-party-into-high-gear.jpg?s=612x612&w=0&k=20&c=yjXQzoaqh7ZbuPhGt0-YLaHg2_JA-OGBfB-q6ThDwHw=" />
+                        <p>Pramotion</p>
+                    </div>
+                    <div class="card-nested">
+                        <img
+                            src="https://media.istockphoto.com/id/1182525596/photo/business-colleagues-enjoying-sparkling-wine-and-conversation.jpg?s=612x612&w=0&k=20&c=3ELOi5mYkal6rI7pdEZitn_EzMnPBG65BAFnhbW0sAw=" />
+                        <p>Special Day</p>
+                    </div>
+                </div>
+                <button class="card-product-btn">see more</button>
+            </div>
+            <div class="card-product">
+                <h2>Food and Drinks</h2>
+                <div class="card-product-nested-card">
+                    <div class="card-nested">
+                        <img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6qvgs7wSHZnf8TNR95J7qb7pE0BG7kHUmHcUM9QepBL97LhNLScFRyoSC0NAMyMmlSPM&usqp=CAU" />
+                        <p>Starters</p>
+                    </div>
+                    <div class="card-nested">
+                        <img
+                            src="https://media.istockphoto.com/id/616091026/photo/people-at-a-banquet.jpg?s=612x612&w=0&k=20&c=gRu5uYEOUCOjS2G9OrN4O7iT8TMtf7-Srk6VJi1Ccsc=" />
+                        <p>Main Course</p>
+                    </div>
+                    <div class="card-nested">
+                        <img
+                            src="https://c1.wallpaperflare.com/preview/387/711/609/eat-food-vitamins-vegetables.jpg" />
+                        <p>Chines</p>
+                    </div>
+                    <div class="card-nested">
+                        <img
+                            src="https://media.istockphoto.com/id/478774622/photo/dessert-of-fresh-fruit-on-skewers-close-up-horizontal.jpg?s=612x612&w=0&k=20&c=P3E8Okn8WUwVvYjI-rlou8HboQ0MqPZ9vOA4lCYxr4A=" />
+                        <p>Fruits</p>
+                    </div>
+                </div>
+                <button class="card-product-btn">see more</button>
+            </div>
+            <div class="card-product">
+                <h2>Lights and Decorators</h2>
+                <div class="card-product-nested-card">
+                    <div class="card-nested">
+                        <img
+                            src="https://c0.wallpaperflare.com/preview/413/654/429/newyork-new-york-blue-voilet.jpg" />
+                        <p>Dark theam</p>
+                    </div>
+                    <div class="card-nested">
+                        <img
+                            src="https://rukminim1.flixcart.com/image/416/416/xif0q/poster/j/s/b/medium-vposter1123445-winter-christmas-city-christmas-decoration-original-imagka7nsxz3u7jq.jpeg?q=70" />
+                        <p>Bright lights</p>
+                    </div>
+                    <div class="card-nested">
+                        <img
+                            src="https://lh3.googleusercontent.com/kpoueaoOjrdEJs6krwFABrwPcBqJHK8d_g5Ne3P3xOXo65b5mvxK6RSlhYdQmscS5q8MoDIOsN8OkTA154L_QKzk=h200-l95-e31" />
+                        <p>Flowers decoration</p>
+                    </div>
+                    <div class="card-nested">
+                        <img
+                            src="https://i.pinimg.com/originals/12/9d/de/129dde3e616d04d38bcf4aecc7282860.jpg" />
+                        <p>Traditional</p>
+                    </div>
+                </div>
+                <button class="card-product-btn">see more</button>
+            </div>
+        </div> -->
+         
+    
+    <!--today's deals -->
+    <section class="today_deals_container">
+        <div class="today_deals_heading">
+            <h1>Today's Deals</h1>
+            <p><a href="#">See all deals</a></p>
+        </div>
+
+        <div class="today_deals_product_container">
+            <div class="today_deals_btn_container">
+                <button  class="today_deal_btn" id="today_deal_btn_prev">
+                    <i class="fa-solid fa-angle-left"></i>
+                </button>
+                <button class="today_deal_btn" id="today_deal_btn_next">
+                    <i class="fa-solid fa-angle-right"></i>
+                </button>
+            </div>
+
+            <div class="today_deals_product_list">
+                <div class="today_deals_product_item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQCimTCLfuOzorul7BNnWabCQKR1sDX7rJjQ&usqp=CAU"/>
+                    <div class="discount_Contaienr">
+                        <a href="#">Up to 52% off</a>
+                        <a href="#">Deal of the day</a>
+                    </div>
+                    <p>DJ lighting 52 % off</p>
+                </div>
+
+                <div class="today_deals_product_item">
+                    <img src="https://images.unsplash.com/photo-1587271407850-8d438ca9fdf2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8d2VkZGluZyUyMGhhbGx8ZW58MHx8MHx8fDA%3D&w=1000&q=80"/>
+                    <div class="discount_Contaienr">
+                        <a href="#">Up to 25% off</a>
+                        <a href="#">Deal of the day</a>
+                    </div>
+                    <p>Halls at 25% off</p>
+                </div>
+
+                <div class="today_deals_product_item">
+                    <img src="https://weddingbanquets.in/public/uploads/818b0596a98349611d24f5f2d1649f1e.jpg"/>
+                    <div class="discount_Contaienr">
+                        <a href="#">Up to 50% off</a>
+                        <a href="#">Deal of the day</a>
+                    </div>
+                    <p>1st Bithday offer </p>
+                </div>
+
+                <div class="today_deals_product_item">
+                    <img src="https://img.freepik.com/free-photo/decorated-wedding-hall-with-candles-round-tables-centerpieces_8353-10057.jpg"/>
+                    <div class="discount_Contaienr">
+                        <a href="#">Up to 62% off</a>
+                        <a href="#">Deal of the day</a>
+                    </div>
+                    <p>Lighting offers</p>
+                </div>
+
+                <div class="today_deals_product_item">
+                    <img src="https://www.shutterstock.com/shutterstock/videos/1026347945/thumb/12.jpg?ip=x480"/>
+                    <div class="discount_Contaienr">
+                        <a href="#">Up to 42% off</a>
+                        <a href="#">Deal of the day</a>
+                    </div>
+                    <p>Caters offer</p>
+                </div>
+            </div>
+        </div>
+        <div class="today_deals_product_list">
+            <div class="today_deals_product_item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQCimTCLfuOzorul7BNnWabCQKR1sDX7rJjQ&usqp=CAU"/>
+                <div class="discount_Contaienr">
+                    <a href="#">Up to 52% off</a>
+                    <a href="#">Deal of the day</a>
+                </div>
+                <p>DJ lighting 52 % off</p>
+            </div>
+
+            <div class="today_deals_product_item">
+                <img src="https://images.unsplash.com/photo-1587271407850-8d438ca9fdf2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8d2VkZGluZyUyMGhhbGx8ZW58MHx8MHx8fDA%3D&w=1000&q=80"/>
+                <div class="discount_Contaienr">
+                    <a href="#">Up to 25% off</a>
+                    <a href="#">Deal of the day</a>
+                </div>
+                <p>Halls at 25% off</p>
+            </div>
+
+            <div class="today_deals_product_item">
+                <img src="https://weddingbanquets.in/public/uploads/818b0596a98349611d24f5f2d1649f1e.jpg"/>
+                <div class="discount_Contaienr">
+                    <a href="#">Up to 50% off</a>
+                    <a href="#">Deal of the day</a>
+                </div>
+                <p>1st Bithday offer </p>
+            </div>
+
+            <div class="today_deals_product_item">
+                <img src="https://img.freepik.com/free-photo/decorated-wedding-hall-with-candles-round-tables-centerpieces_8353-10057.jpg"/>
+                <div class="discount_Contaienr">
+                    <a href="#">Up to 62% off</a>
+                    <a href="#">Deal of the day</a>
+                </div>
+                <p>Lighting offers</p>
+            </div>
+
+            <div class="today_deals_product_item">
+                <img src="https://www.shutterstock.com/shutterstock/videos/1026347945/thumb/12.jpg?ip=x480"/>
+                <div class="discount_Contaienr">
+                    <a href="#">Up to 42% off</a>
+                    <a href="#">Deal of the day</a>
+                </div>
+                <p>Caters offer</p>
+            </div>
+        </div>
+    </div>
+    </section>
+    </main>
+    
+    <div class="jio">
+        <div class="product-card">
+            <img src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/713KK63J2CL._SX342_.jpg" alt="Product Image">
+            <h2 class="product-title">Lights Decoration</h2>
+            <p class="product-description">Red and blue combination</p>
+            <p class="product-price">$89.99</p>
+            <a href="#" class="product-button">Book Now</a>
+          </div>
+          <div class="product-card">
+            <img src="https://prepare2party.in/wp-content/uploads/2022/06/Golden-Silver-Chrome-Balloon-Decoration.jpeg" alt="Product Image">
+            <h2 class="product-title">Ballons Decoration</h2>
+            <p class="product-description">All types of ballons decoration .</p>
+            <p class="product-price">$49.99</p>
+            <a href="#" class="product-button">Book Now</a>
+          </div>
+          <div class="product-card">
+            <img src="https://image.wedmegood.com/resized/540X/uploads/member/1301477/1592305317_Screenshot_5.png" alt="Product Image">
+            <h2 class="product-title">Flowers Decoration</h2>
+            <p class="product-description">Red and different colour flowers on demand.</p>
+            <p class="product-price">$78.99</p>
+            <a href="#" class="product-button">Book Now</a>
+          </div>
+          <div class="product-card">
+            <img src="https://sc04.alicdn.com/kf/Heaba47335a9a4fc6bc2410a7f6fe7cbb0.jpg" alt="Product Image">
+            <h2 class="product-title">Sparkles Decoration</h2>
+            <p class="product-description">AS you can customise</p>
+            <p class="product-price">$99.99</p>
+            <a href="#" class="product-button">Book Now</a>
+          </div>
+        
+        </div>
+     <div class="jio">
+    <div class="product-card">
+        <img src="https://i.pinimg.com/originals/bd/d0/64/bdd064c692ec7875fd0bc39cb37a2704.jpg" alt="Product Image">
+        <h2 class="product-title">Tents Decoration</h2>
+        <p class="product-description">Different colour and design are their.</p>
+        <p class="product-price">$119.99</p>
+        <a href="#" class="product-button">Book Now</a>
+      </div>
+      <div class="product-card">
+        <img src="https://media.weddingz.in/images/04c9ac628c77ce32f906fb083d309f29/Mehndi-decoration-ideas-that-are-simple--classy12.jpg" alt="Product Image">
+        <h2 class="product-title">Treditional Functions</h2>
+        <p class="product-description">Mehndi ,Haldi and sangeet organisers.</p>
+        <p class="product-price">$149.99</p>
+        <a href="#" class="product-button">Book Now</a>
+      </div>
+      <div class="product-card">
+        <img src="https://i.pinimg.com/originals/74/df/1e/74df1e9e81135a2a8a3007a2fdde8cab.jpg" alt="Product Image">
+        <h2 class="product-title">Pandal decorators</h2>
+        <p class="product-description">Pandal decorators for big functions.</p>
+        <p class="product-price">$199.99</p>
+        <a href="#" class="product-button">Book Now</a>
+      </div>
+      <div class="product-card">
+        <img src="https://cdn0.weddingwire.com/vendor/787040/3_2/960/jpg/kalimba-26_51_2040787-162568911396711.jpeg" alt="Product Image">
+        <h2 class="product-title">Orchestra</h2>
+        <p class="product-description">Orchestra at low cost</p>
+        <p class="product-price">$249.99</p>
+        <a href="#" class="product-button">Book Now</a>
+      </div>
+    
+    </div>
+    <footer>
+        <div class="footer-content">
+          <div class="footer-column">
+            <h4>Get to Know Us</h4>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Press Releases</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>Make Money with Us</h4>
+            <ul>
+              <li><a href="#">Sell on Amazon</a></li>
+              <li><a href="#">Sell Under Amazon Accelerator</a></li>
+              <li><a href="#">Become an Affiliate</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>Amazon Payment Products</h4>
+            <ul>
+              <li><a href="#">Amazon Business Card</a></li>
+              <li><a href="#">Shop with Points</a></li>
+              <li><a href="#">Reload Your Balance</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>Let Us Help You</h4>
+            <ul>
+              <li><a href="#">Amazon and COVID-19</a></li>
+              <li><a href="#">Your Account</a></li>
+              <li><a href="#">Help</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2023 Your Amazon Clone. All rights reserved.</p>
+        </div>
+      </footer>
+    <script src="script.js" type="module"></script>
+</body>
+
+</html>
